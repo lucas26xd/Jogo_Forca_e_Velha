@@ -24,7 +24,7 @@ void sorteia(){
 }
  
 void inicia_variaveis(){
-    system("clear");
+    system("cls");
     for(int i = 0; i < strlen(resultado); i++) 
         resultado[i] = '_';
     tentativas = 6;
@@ -35,7 +35,7 @@ void inicia_variaveis(){
 }
  
 void imprime_letras(){ 
-    for(int i = 0; i < strlen(palavra)-2; i++){ //o -2 é devido a contagem estar incluindo o \0 e \n
+    for(int i = 0; i < strlen(palavra)-1; i++){ //o -2 é devido a contagem estar incluindo o \0 e \n
         printf("%c ", resultado[i]); //mostra na tela os espaços correspondentes ao tamanho da palavra sorteada
     }
     printf("\n");
@@ -43,7 +43,7 @@ void imprime_letras(){
 
 int ganhou(){
     int b = 1;
-    for(int i = 0; i < strlen(palavra)-2; i++){
+    for(int i = 0; i < strlen(palavra)-1; i++){
         if(resultado[i] == '_'){ //percorre o vetor verificando se há algum espaço sem ser preenchido
             b = 0;
             break; //ignora o restante do bloco 
@@ -82,7 +82,7 @@ int testa_letra(char letra){
 }
 
 void boneco(int tent){
-    system("clear");
+    system("cls");
     printf("  ______\n");
     printf("  :    |\n");
     int t = tent;
@@ -122,7 +122,7 @@ void imprime_procuradas(){
 int main(){
 	//system ("color 0B"); //altera a cor da fonte
     setlocale(LC_ALL, "ptb"); //permite utilizar acentuação
-	system("clear"); //limpa a tela "cls" se for executar no Windows
+	system("cls"); //limpa a tela "cls" se for executar no Windows
     char letra, s;
     if (arq == NULL){
     	puts("Problemas na abertura do arquivo!!!\n");

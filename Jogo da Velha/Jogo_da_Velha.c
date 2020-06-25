@@ -150,7 +150,7 @@ int qm_comeca(){
 }
 
 void imprime(){
-	system("clear");
+	system("cls");
 	for(int i = 0; i < 9; i++){
 		printf("                  ");
 		for(int j = 0; j < 3; j++){
@@ -303,7 +303,7 @@ int main(){
 	//system("color 0f");//deixa o fundo branco e a cor da fonte branco brilhante
 	setlocale(LC_ALL, "ptb");
 	do{
-		system("clear");
+		system("cls");
 		puts("ESCOLHA O MODO QUE DESEJA JOGAR:");
 		do{
 	        puts("1) Player 1. Vs. Player 2.\n2) Player 1. Vs. COMPUTADOR");
