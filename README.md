@@ -31,7 +31,7 @@ ou
 
 Se você estiver em um ambiente Windows, basta dar um duplo clique sobre os respectivos arquivos executáveis (.exe).
 
-## Recompilação
+## ⚙️ Recompilação
 Se preferir fazer alguma alteração no código basta salvar o arquivo do script e compilá-lo novamente:
 > gcc Jogo_da_Forca.cpp -o Jogo_da_Forca
 
