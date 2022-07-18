@@ -1,4 +1,4 @@
-# :mask: :coffee: :computer: Quarentine Project #1 - Nostalgia
+# :mask: :coffee: :computer: [Quarentine Project](https://github.com/lucas26xd/Quarentine-Projects) #1 - Nostalgia
 [![GitHub author](https://img.shields.io/badge/author-lucas26xd-orange?style=flat-square)](https://github.com/lucas26xd)
 [![GitHub last commit](https://img.shields.io/github/last-commit/lucas26xd/Jogo_Forca_e_Velha?color=orange&style=flat-square)](../../commits/master)
 ![GitHub repo size](https://img.shields.io/github/repo-size/lucas26xd/Jogo_Forca_e_Velha?color=orange&style=flat-square)
